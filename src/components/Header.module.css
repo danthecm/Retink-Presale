@@ -2,9 +2,8 @@ header {
     display: grid;
     height: 500px;
     grid-template-columns: 2fr 1fr;
-    padding: 1rem 9rem;
+    padding: 2rem 9rem;
     justify-content: center;
-    align-items: center;
     background: rgba(126, 28, 254, 0.05);
 }
 
@@ -14,5 +13,5 @@ header {
 }
 
 .avater_img {
-    height: 511px;
+    height: 495px;
 }

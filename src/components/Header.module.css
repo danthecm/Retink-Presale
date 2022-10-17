@@ -1,0 +1,18 @@
+header {
+    display: grid;
+    height: 500px;
+    grid-template-columns: 2fr 1fr;
+    padding: 1rem 9rem;
+    justify-content: center;
+    align-items: center;
+    background: rgba(126, 28, 254, 0.05);
+}
+
+.main_header {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.avater_img {
+    height: 511px;
+}

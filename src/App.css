@@ -1,0 +1,40 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 150.4%;
+  color: #323232;
+}
+
+h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 170%;
+  color: #7E1CFE;
+  text-align: center;
+}
+
+h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 120%;
+  text-align: center;
+  color: #7E1CFE;
+}
+
+p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #000000;
+}
+
+.primary-color {
+  color:  #7E1CFE;
+}

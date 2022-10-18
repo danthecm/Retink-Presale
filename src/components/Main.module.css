@@ -66,7 +66,7 @@ main > p {
 .services {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  row-gap: 10px;
+  gap: 30px;
   max-width: 800px;
   margin: auto auto;
 }
@@ -95,8 +95,8 @@ main > p {
 .service > .title {
   font-weight: 300;
   font-size: 18px;
-  margin-top: 10px;
-  margin-bottom: 2px;
+  margin-top: 20px;
+  margin-bottom: 3px;
 }
 .service > hr {
   width: 80px;

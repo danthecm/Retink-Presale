@@ -2,7 +2,7 @@ header {
   display: grid;
   height: 600px;
   grid-template-columns: 3fr 1fr;
-  padding: 0rem 1rem 1rem 140px;
+  padding: 0rem 1rem 1rem 120px;
   /* justify-content: center; */
   background: rgba(126, 28, 254, 0.05);
 }
@@ -45,7 +45,7 @@ header {
 }
 .example_text > span {
   display: inline-block;
-  min-width: 225px;
+  min-width: 220px;
   text-align: center;
   font-style: italic;
   color: #7e1cfe;

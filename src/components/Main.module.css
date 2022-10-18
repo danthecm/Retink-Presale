@@ -6,10 +6,13 @@ main {
   justify-content: center;
 }
 
+
 main > section > img {
   display: block;
   margin: 10px auto 200px auto;
 }
+
+ /* CARDS SECTIONS */
 
 .cards {
   display: flex;
@@ -58,4 +61,18 @@ main > p {
   text-align: center;
   color: #4D4D4D;
   margin: 24px auto 84px auto;
+}
+
+/* SERVICES SECTION */
+.services {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.service {
+  display: grid;
+  grid-template-columns: 1fr;
 }

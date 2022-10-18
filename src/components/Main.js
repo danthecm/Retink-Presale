@@ -79,6 +79,14 @@ const Main = () => {
         sign up for affordable plans and still access multiple content services
         like:
       </p>
+      <section className={classes.services}>
+              <div className={classes.service}>
+                <img src="" alt=""/>
+                <p className={classes.title}>
+                  Logo
+                </p>
+              </div>
+      </section>
     </main>
   );
 };

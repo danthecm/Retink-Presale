@@ -86,7 +86,7 @@ const Main = () => {
         like:
       </p>
       <section className={classes.services}>
-        <div className={classes.service}>
+        <div className="service">
           <div
             style={{ backgroundImage: `url(${logo_services})` }}
             alt="logo services"
@@ -99,7 +99,7 @@ const Main = () => {
           </p>
         </div>
 
-        <div className={classes.service}>
+        <div className="service">
           <div
             style={{ backgroundImage: `url(${blog_services})` }}
             alt="logo services"
@@ -112,7 +112,7 @@ const Main = () => {
           </p>
         </div>
 
-        <div className={classes.service}>
+        <div className="service">
           <div
             style={{ backgroundImage: `url(${video_services})` }}
             alt="logo services"
@@ -125,7 +125,7 @@ const Main = () => {
           </p>
         </div>
 
-        <div className={classes.service}>
+        <div className="service">
           <div
             style={{ backgroundImage: `url(${product_demo})` }}
             alt="logo services"
@@ -138,7 +138,7 @@ const Main = () => {
           </p>
         </div>
 
-        <div className={classes.service}>
+        <div className="service">
           <div
             style={{ backgroundImage: `url(${copywriting_services})` }}
             alt="logo services"
@@ -151,7 +151,7 @@ const Main = () => {
           </p>
         </div>
 
-        <div className={classes.service}>
+        <div className="service">
           <div
             style={{ backgroundImage: `url(${social_media_ads})` }}
             alt="logo services"

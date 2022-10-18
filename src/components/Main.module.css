@@ -101,6 +101,7 @@ main > p {
 .service > hr {
   position: absolute;
   width: 80px;
+  height: 0;
   color: #754de8;
   border: 2px solid #754de8;
   border-radius: 5px;

@@ -6,13 +6,12 @@ main {
   justify-content: center;
 }
 
-
 main > section > img {
   display: block;
   margin: 10px auto 200px auto;
 }
 
- /* CARDS SECTIONS */
+/* CARDS SECTIONS */
 
 .cards {
   display: flex;
@@ -51,15 +50,15 @@ main > section > img {
   color: #000000;
 }
 .card > p {
-    max-width: 260px;
-    margin: auto auto;
+  max-width: 260px;
+  margin: auto auto;
 }
 
 main > p {
   font-size: 20px;
   line-height: 34px;
   text-align: center;
-  color: #4D4D4D;
+  color: #4d4d4d;
   margin: 24px auto 84px auto;
 }
 
@@ -69,10 +68,40 @@ main > p {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  row-gap: 20px;
 }
 
 .service {
   display: grid;
   grid-template-columns: 1fr;
+  width: 253px;
+  margin-top: 20px;
+  height: 297px;
+  align-items: center;
 }
+
+.service > div {
+  display: block;
+  background: #ffffff ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto auto;
+  box-shadow: 0px 16px 39px rgba(117, 77, 232, 0.15);
+  border-radius: 20px;
+  width: 253px;
+  height: 143px;
+}
+
+.service > .title {
+  font-weight: 300;
+  font-size: 18px;
+  margin: 10px 5px 3px 5px;
+}
+.service > hr {
+  width: 80px;
+  color: #754de8;
+  border: 2px solid #754de8;
+  border-radius: 5px;
+}
+
+.service .desc {}

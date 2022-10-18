@@ -5,6 +5,12 @@ import upload_maintain_img from "./images/upload_maintain.png";
 import information_img from "./images/information_img.png";
 import receive_img from "./images/direct-customer-svgrepo-com.png";
 import publish_img from "./images/publish_img.png";
+import logo_services from "./images/logo_services.jpg";
+import blog_services from "./images/blog_services.png";
+import copywriting_services from "./images/copywriting_services.png";
+import video_services from "./images/video_services.png";
+import social_media_ads from "./images/social_media_ads.png";
+import product_demo from "./images/product_demo.png";
 
 const Main = () => {
   return (
@@ -80,12 +86,80 @@ const Main = () => {
         like:
       </p>
       <section className={classes.services}>
-              <div className={classes.service}>
-                <img src="" alt=""/>
-                <p className={classes.title}>
-                  Logo
-                </p>
-              </div>
+        <div className={classes.service}>
+          <div
+            style={{ backgroundImage: `url(${logo_services})` }}
+            alt="logo services"
+          ></div>
+          <p className={classes.title}>Logo</p>
+          <hr />
+          <p>
+            Have a unique & creative logo <br /> designed to express and
+            represent your brand identity.
+          </p>
+        </div>
+
+        <div className={classes.service}>
+          <div
+            style={{ backgroundImage: `url(${blog_services})` }}
+            alt="logo services"
+          ></div>
+          <p className={classes.title}>Blog Writing</p>
+          <hr />
+          <p className={classes.desc}>
+            Write SEO enriched blog posts as long or short articles on any topic
+            of your choice .
+          </p>
+        </div>
+
+        <div className={classes.service}>
+          <div
+            style={{ backgroundImage: `url(${video_services})` }}
+            alt="logo services"
+          ></div>
+          <p className={classes.title}>Animated Videos</p>
+          <hr />
+          <p>
+            Bring animated characters to life to keep your viewers engaged and
+            entertained.
+          </p>
+        </div>
+
+        <div className={classes.service}>
+          <div
+            style={{ backgroundImage: `url(${product_demo})` }}
+            alt="logo services"
+          ></div>
+          <p className={classes.title}>Product Demo</p>
+          <hr />
+          <p>
+            Introduce your product to potential customers in a clear and
+            creative video.
+          </p>
+        </div>
+
+        <div className={classes.service}>
+          <div
+            style={{ backgroundImage: `url(${copywriting_services})` }}
+            alt="logo services"
+          ></div>
+          <p className={classes.title}>Copywriting</p>
+          <hr />
+          <p>
+            Have creative and compelling copies written to boost your product,
+            brand, service or company.
+          </p>
+        </div>
+
+        <div className={classes.service}>
+          <div
+            style={{ backgroundImage: `url(${social_media_ads})` }}
+            alt="logo services"
+          ></div>
+          <p className={classes.title}>Social Media Ads</p>
+          <hr />
+          <p>Boost sales and awareness with tailor made ads from experts.</p>
+        </div>
       </section>
     </main>
   );

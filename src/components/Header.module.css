@@ -45,7 +45,7 @@ header {
 }
 .example_text > span {
   display: inline-block;
-  max-width: 220px;
+  min-width: 210px;
   text-align: center;
   font-style: italic;
   color: #7e1cfe;

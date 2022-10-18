@@ -74,9 +74,9 @@ main > p {
 .service {
   display: grid;
   grid-template-columns: 1fr;
-  width: 253px;
+  max-width: 253px;
+  max-height: 297px;
   margin-top: 20px;
-  height: 297px;
   /* align-items: center; */
 }
 

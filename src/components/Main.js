@@ -16,7 +16,7 @@ const Main = () => {
       <section className={classes.cards}>
         <div className={classes.card}>
           <img src={ai_img} alt="ai_image" />
-          <h4>MakeAI-assisted Content Choices</h4>
+          <h4>MakeAI-assisted <br/> Content Choices</h4>
           <p>
             Access and Order from an extensive catalogue in any language and on
             your budget’s terms. If unsure, our AI guides you to the best.u
@@ -25,7 +25,7 @@ const Main = () => {
 
         <div className={classes.card}>
           <img src={upload_maintain_img} alt="ai_image" />
-          <h4>Upload and Maintain your Brand Identity</h4>
+          <h4>Upload and Maintain <br/> your Brand Identity</h4>
           <p>
             Add your preferences and brand assets to ensure the contents is
             consistent with your brand identity. No brand asset? We can make for
@@ -53,7 +53,7 @@ const Main = () => {
 
         <div className={classes.card}>
           <img src={publish_img} alt="ai_image" />
-          <h4>Publish and Monitor your contents’ progress</h4>
+          <h4>Publish and Monitor <br/> your contents’ progress</h4>
           <p>
             The finished content is delivered and you can make corrections that
             we will effect to satisfy your requirements.

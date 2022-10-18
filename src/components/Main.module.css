@@ -69,6 +69,7 @@ main > p {
   align-items: center;
   justify-content: center;
   row-gap: 10px;
+  width: 800px;
 }
 
 .service {

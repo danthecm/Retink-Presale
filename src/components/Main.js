@@ -8,9 +8,9 @@ import publish_img from "./images/publish_img.png";
 import logo_services from "./images/logo_services.jpg";
 import blog_services from "./images/blog_services.png";
 import copywriting_services from "./images/copywriting_services.png";
-import video_services from "./images/video_services.png";
+import video_services from "./images/video_service.jpeg";
 import social_media_ads from "./images/social_media_ads.png";
-import product_demo from "./images/product_demo.png";
+import product_demo from "./images/product_demo.jpg";
 
 const Main = () => {
   return (

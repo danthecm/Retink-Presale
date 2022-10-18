@@ -134,7 +134,7 @@ const Main = () => {
           <hr />
           <p>
             Introduce your product to potential customers in a clear and
-            creative video.
+            creative video..<br />.<br />
           </p>
         </div>
 
@@ -158,7 +158,7 @@ const Main = () => {
           ></div>
           <p className={classes.title}>Social Media Ads</p>
           <hr />
-          <p>Boost sales and awareness with tailor made ads from experts.<br /> <br /></p>
+          <p>Boost sales and awareness with tailor made ads from experts.<br /> <br /><br /></p>
         </div>
       </section>
     </main>

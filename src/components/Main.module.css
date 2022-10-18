@@ -87,7 +87,7 @@ main > p {
   background: #ffffff ;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: auto auto;
+  margin: 5px auto;
   box-shadow: 0px 16px 39px rgba(117, 77, 232, 0.15);
   border-radius: 20px;
   width: 253px;

@@ -96,7 +96,8 @@ main > p {
 .service > .title {
   font-weight: 300;
   font-size: 18px;
-  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-bottom: 2px;
 }
 .service > hr {
   width: 80px;

@@ -158,7 +158,7 @@ const Main = () => {
           ></div>
           <p className={classes.title}>Social Media Ads</p>
           <hr />
-          <p>Boost sales and awareness with tailor made ads from experts.</p>
+          <p>Boost sales and awareness with tailor made ads from experts.<br /> <br /></p>
         </div>
       </section>
     </main>

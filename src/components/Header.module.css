@@ -45,7 +45,7 @@ header {
 }
 .example_text > span {
   display: inline-block;
-  min-width: 210px;
+  min-width: 180px;
   text-align: center;
   font-style: italic;
   color: #7e1cfe;
@@ -62,7 +62,7 @@ header > section > h2 {
 
 .avater_img {
   height: 635px;
-  margin-left: -50px;
+  margin-left: -250px;
 }
 
 .cta_btns button{

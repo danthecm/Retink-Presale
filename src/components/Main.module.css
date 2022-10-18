@@ -68,7 +68,7 @@ main > p {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   justify-content: center;
-  row-gap: 20px;
+  row-gap: 10px;
 }
 
 .service {

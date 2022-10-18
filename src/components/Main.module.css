@@ -47,6 +47,10 @@ main > section > img {
   color: #000000;
 }
 .card > p {
-    width: 285px;
+    max-width: 260px;
     margin: auto auto;
+}
+
+section > p {
+  max-width: 795px;
 }

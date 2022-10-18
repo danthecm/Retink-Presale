@@ -99,6 +99,7 @@ main > p {
   margin-bottom: 2px;
 }
 .service > hr {
+  position: absolute;
   width: 80px;
   color: #754de8;
   border: 2px solid #754de8;

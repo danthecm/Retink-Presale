@@ -17,6 +17,7 @@ main > section > img {
   gap: 20px;
   justify-content: center;
   align-items: center;
+  margin-bottom: 84px;
 }
 
 .card {

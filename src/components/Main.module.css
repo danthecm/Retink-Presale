@@ -66,7 +66,7 @@ main > p {
 .services {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  /* align-items: center; */
+  align-items: start;
   justify-content: center;
   row-gap: 10px;
   width: 800px;
@@ -78,7 +78,7 @@ main > p {
   width: 253px;
   margin-top: 20px;
   height: 297px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .service > div {

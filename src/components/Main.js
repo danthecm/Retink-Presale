@@ -106,7 +106,7 @@ const Main = () => {
           ></div>
           <p className={classes.title}>Blog Writing</p>
           <hr />
-          <p className={classes.desc}>
+          <p>
             Write SEO enriched blog posts as long or short articles on any topic
             of your choice .
           </p>

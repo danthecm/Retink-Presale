@@ -53,7 +53,9 @@ main > section > img {
 }
 
 main > p {
+  font-size: 20px;
+  line-height: 34px;
   text-align: center;
-  max-width: 50%;
+  color: #4D4D4D;
   margin: 24px auto 84px auto;
 }

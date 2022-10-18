@@ -2,11 +2,7 @@ header {
   display: grid;
   height: 600px;
   grid-template-columns: 3fr 1fr;
-<<<<<<< HEAD
-  padding: 0rem 8rem 1rem 153px;
-=======
   padding: 0rem 1rem 1rem 120px;
->>>>>>> 7326c9e0fca191554ed6fdf08751d4b95fcafb61
   /* justify-content: center; */
   background: rgba(126, 28, 254, 0.05);
 }

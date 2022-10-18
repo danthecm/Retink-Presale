@@ -52,6 +52,7 @@ main > section > img {
 }
 
 section > p {
-  max-width: 795px;
+  text-align: center;
+  max-width: 50%;
   margin: 24px auto 84px auto;
 }

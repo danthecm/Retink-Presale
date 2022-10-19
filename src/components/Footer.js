@@ -20,9 +20,14 @@ const Footer = () => {
                     <p>Get Early Acess</p>
                     <p>Provide Feedback</p>
                 </div>
-                <div>
+                <div className={classes.socials}>
                     <p>Connect with Us</p>
                     <img src={facebook} alt="facebook" />
+                    <img src={twitter} alt="twitter" />
+                    <img src={instagram} alt="instagram" />
+                    <img src={linkedin} alt="linkedin" />
+                    <img src={youtube} alt="youtube" />
+                    <img src={pinterest} alt="pinterest" />
                 </div>
             </section>
             <section className={classes.secondary_footer}>

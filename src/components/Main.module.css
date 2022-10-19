@@ -8,7 +8,7 @@ main {
 
 main > section > img {
   display: block;
-  margin: 10px auto 200px auto;
+  margin: 50px auto 200px auto;
 }
 
 
@@ -38,6 +38,10 @@ main > section > img {
   align-items: center;
   padding: 50px 49px;
   /* margin: 5px; */
+}
+
+.card:hover {
+  border: 2px solid #754de8;
 }
 
 .cards div:nth-child(1) {
@@ -115,6 +119,10 @@ main > p {
   border-radius: 20px;
   width: 253px;
   height: 143px;
+}
+
+.service > div:hover {
+  transform: scale(1.04);
 }
 
 .service > .title {

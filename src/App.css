@@ -42,8 +42,3 @@ p {
 button {
   cursor: pointer;
 }
-
-button:hover {
-  transform: scale(1.03);
-  transition: ease-in-out;
-}

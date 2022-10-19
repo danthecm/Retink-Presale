@@ -6,15 +6,15 @@ const Header = () => {
   return (
     <header
       data-aos="fade-down"
-      data-aos-easing="linear"
-      data-aos-duration="1500"
+      data-aos-easing="ease-in-out"
+      data-aos-duration="500"
     >
       <section>
         <img
           data-aos="fade-right"
-          data-aos-easing="linear"
-          data-aos-delay="1000"
-          data-aos-duration="500"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="500"
+          data-aos-duration="1000"
           className={classes.logo}
           src={logo}
           alt="retink_logo"
@@ -22,23 +22,24 @@ const Header = () => {
         <h1
           data-aos="fade-right"
           data-aos-easing="linear"
-          data-aos-delay="1500"
-          data-aos-duration="700"
+          data-aos-delay="800"
+          data-aos-duration="1000"
         >
           Get Advanced AI{" "}
         </h1>
         <h1
           data-aos="fade-right"
-          data-aos-easing="linear"
-          data-aos-delay="1700"
-          data-aos-duration="700"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="1000"
+          data-aos-duration="1000"
         >
           + Expert Created <span className={classes.text_logo}>Logos</span>
         </h1>
         <p
           data-aos="flip-up"
-          data-aos-delay="2000"
-          data-aos-duration="2000"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="1200"
+          data-aos-duration="1200"
           className={classes.intro_p}
         >
           Boost your sales{" "}
@@ -48,12 +49,19 @@ const Header = () => {
             human creativity and AI optimization
           </span>
         </p>
-        <h2 data-aos="zoom-out" data-aos-delay="2800" data-aos-duration="1500">
+        <h2
+          id="sign_up"
+          data-aos="zoom-out"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="1500"
+          data-aos-duration="1200"
+        >
           Sign Up For The BETA!
         </h2>
         <p
           data-aos="zoom-in-up"
-          data-aos-delay="3000"
+          data-aos-easing="ease-in-out"
+          data-aos-delay="1700"
           data-aos-duration="1500"
           className={classes.example_text}
         >
@@ -63,15 +71,16 @@ const Header = () => {
         <div className={classes.cta_btns}>
           <button
             data-aos="flip-up"
-            data-aos-delay="3500"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="2300"
             data-aos-duration="2000"
           >
             Notify me
           </button>
           <button
             data-aos="flip-down"
-            data-aos-easing="linear"
-            data-aos-delay="3500"
+            data-aos-easing="ease-in-out"
+            data-aos-delay="2300"
             data-aos-duration="2000"
           >
             Sign up as a freelance partner
@@ -79,6 +88,10 @@ const Header = () => {
         </div>
       </section>
       <img
+        data-aos="fade-down"
+        data-aos-easing="ease-in-out-cubic"
+        data-aos-delay="2800"
+        data-aos-duration="2000"
         className={classes.avater_img}
         src={retink_avater}
         alt="retink-bot"

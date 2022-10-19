@@ -15,12 +15,22 @@ import product_demo from "./images/product_demo.jpg";
 const Main = () => {
   return (
     <main>
-      <section>
+      <section
+        data-aos="fade-down"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="1500"
+        data-aos-mirror="true"
+      >
         <h2>EXPLAINER VIDEO</h2>
         <img src={video_img} alt="video_img" />
       </section>
       <section className={classes.cards}>
-        <div className={classes.card}>
+        <div
+          className={classes.card}
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1000"
+        >
           <img src={ai_img} alt="ai_image" />
           <h4>
             MakeAI-assisted <br /> Content Choices
@@ -31,7 +41,12 @@ const Main = () => {
           </p>
         </div>
 
-        <div className={classes.card}>
+        <div
+          className={classes.card}
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1500"
+        >
           <img src={upload_maintain_img} alt="ai_image" />
           <h4>
             Upload and Maintain <br /> your Brand Identity
@@ -43,7 +58,12 @@ const Main = () => {
           </p>
         </div>
 
-        <div className={classes.card}>
+        <div
+          className={classes.card}
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="2000"
+        >
           <img src={information_img} alt="ai_image" />
           <h4>Be informed as we create</h4>
           <p>
@@ -52,7 +72,12 @@ const Main = () => {
           </p>
         </div>
 
-        <div className={classes.card}>
+        <div
+          className={classes.card}
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1400"
+        >
           <img src={receive_img} alt="ai_image" />
           <h4>Receive and Review</h4>
           <p>
@@ -61,7 +86,12 @@ const Main = () => {
           </p>
         </div>
 
-        <div className={classes.card}>
+        <div
+          className={classes.card}
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1900"
+        >
           <img src={publish_img} alt="ai_image" />
           <h4>
             Publish and Monitor <br /> your contents’ progress
@@ -72,21 +102,46 @@ const Main = () => {
           </p>
         </div>
       </section>
-      <h3>Transform your Creation Process</h3>
-      <p>
+      <h3
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="2500"
+      >
+        Transform your Creation Process
+      </h3>
+      <p
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="2500"
+      >
         With a new approach toordering content, you can now stop juggling
         multiple <br /> documents and meetings and start publishing content
         faster and on demand
       </p>
-      <h3>Activate your business growth with RetinkContent.</h3>
-      <p>
+      <h3
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="2500"
+      >
+        Activate your business growth with RetinkContent.
+      </h3>
+      <p
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="2500"
+      >
         Save time and maintain your brand identity within your budget range or{" "}
         <br />
         sign up for affordable plans and still access multiple content services
         like:
       </p>
       <section className={classes.services}>
-        <div className={classes.service}>
+        <div
+          className={classes.service}
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1000"
+        >
           <div
             style={{ backgroundImage: `url(${logo_services})` }}
             alt="logo services"
@@ -99,7 +154,12 @@ const Main = () => {
           </p>
         </div>
 
-        <div className={classes.service}>
+        <div
+          className={classes.service}
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1300"
+        >
           <div
             style={{ backgroundImage: `url(${blog_services})` }}
             alt="logo services"
@@ -112,7 +172,12 @@ const Main = () => {
           </p>
         </div>
 
-        <div className={classes.service}>
+        <div
+          className={classes.service}
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1600"
+        >
           <div
             style={{ backgroundImage: `url(${video_services})` }}
             alt="video service"
@@ -125,7 +190,12 @@ const Main = () => {
           </p>
         </div>
 
-        <div className={classes.service}>
+        <div
+          className={classes.service}
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1000"
+        >
           <div
             style={{ backgroundImage: `url(${product_demo})` }}
             alt="product demo"
@@ -134,11 +204,17 @@ const Main = () => {
           <hr />
           <p>
             Introduce your product to potential customers in a clear and
-            creative video..<br />.<br />
+            creative video..
+            <br />.<br />
           </p>
         </div>
 
-        <div className={classes.service}>
+        <div
+          className={classes.service}
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1300"
+        >
           <div
             style={{ backgroundImage: `url(${copywriting_services})` }}
             alt="copywrite service"
@@ -151,27 +227,68 @@ const Main = () => {
           </p>
         </div>
 
-        <div className={classes.service}>
+        <div
+          className={classes.service}
+          data-aos="fade-down"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1600"
+        >
           <div
             style={{ backgroundImage: `url(${social_media_ads})` }}
             alt="media service"
           ></div>
           <p className={classes.title}>Social Media Ads</p>
           <hr />
-          <p>Boost sales and awareness with tailor made ads from experts.<br /> <br /><br /></p>
+          <p>
+            Boost sales and awareness with tailor made ads from experts.
+            <br /> <br />
+            <br />
+          </p>
         </div>
       </section>
 
-      <h3>Sign Up For The BETA to see more</h3>
+      <h3
+        data-aos="fade-up"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="1000"
+      >
+        Sign Up For The BETA to see more
+      </h3>
       <div className={classes.disabled_btns}>
-        <button>Business Name</button>
-        <button>Email</button>
+        <button
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="1500"
+        >
+          Business Name
+        </button>
+        <button
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="2000"
+        >
+          Email
+        </button>
       </div>
-      
+
       <div className={classes.cta_btns}>
-            <button>Notify me</button><br /><br />
-            <button>Sign up as a freelance partner</button>
-        </div>
+        <button
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="2000"
+        >
+          Notify me
+        </button>
+        <br />
+        <br />
+        <button
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out"
+          data-aos-duration="2500"
+        >
+          Sign up as a freelance partner
+        </button>
+      </div>
     </main>
   );
 };

@@ -15,11 +15,14 @@ main > section > img {
 /* CARDS SECTIONS */
 
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  display: grid;
+  grid-template-areas:  
+  "a a b b c c"
+  "d d d e e e";
+  gap: 46px;
   justify-content: center;
   align-items: center;
+  align-content: center;
   margin-bottom: 84px;
 }
 
@@ -34,7 +37,27 @@ main > section > img {
   justify-content: center;
   align-items: center;
   padding: 50px 49px;
-  margin: 5px;
+  /* margin: 5px; */
+}
+
+.cards div:nth-child(1) {
+  grid-area: a;
+}
+
+.cards div:nth-child(2) {
+  grid-area: b;
+}
+
+.cards div:nth-child(3) {
+  grid-area: c;
+}
+.cards div:nth-child(4) {
+  grid-area: d;
+  justify-self: end;
+}
+.cards div:nth-child(5) {
+  grid-area: e;
+  justify-self: start;
 }
 
 .card > img {

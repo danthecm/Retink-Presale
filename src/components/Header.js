@@ -63,7 +63,7 @@ const Header = () => {
         <div className={classes.cta_btns}>
           <button
             data-aos="flip-up"
-            data-aos-delay="3000"
+            data-aos-delay="3500"
             data-aos-duration="2000"
           >
             Notify me
@@ -71,7 +71,7 @@ const Header = () => {
           <button
             data-aos="flip-down"
             data-aos-easing="linear"
-            data-aos-delay="3000"
+            data-aos-delay="3500"
             data-aos-duration="2000"
           >
             Sign up as a freelance partner

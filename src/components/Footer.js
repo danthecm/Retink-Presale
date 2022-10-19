@@ -1,5 +1,11 @@
 import classes from "./Footer.module.css"
 import logo from "./images/Logo.png"
+import facebook from "./images/social icons/facebook.png"
+import instagram from "./images/social icons/instagram.png"
+import linkedin from "./images/social icons/linkedin.png"
+import pinterest from "./images/social icons/pinterest.png"
+import twitter from "./images/social icons/twitter.png"
+import youtube from "./images/social icons/youtube.png"
 
 const Footer = () => {
     return (
@@ -16,6 +22,7 @@ const Footer = () => {
                 </div>
                 <div>
                     <p>Connect with Us</p>
+                    <img src={facebook} alt="facebook" />
                 </div>
             </section>
             <section className={classes.secondary_footer}>

@@ -11,6 +11,7 @@ main > section > img {
   margin: 10px auto 200px auto;
 }
 
+
 /* CARDS SECTIONS */
 
 .cards {
@@ -69,6 +70,7 @@ main > p {
   gap: 30px;
   max-width: 800px;
   margin: auto auto;
+  margin-bottom: 110px;
 }
 
 .service {
@@ -106,4 +108,59 @@ main > p {
   border-bottom: 2px solid #754de8;
   border-radius: 5px;
   margin-bottom: 27px;
+}
+
+.disabled_btns {
+  display: block;
+  margin: 30px auto;
+}
+
+.disabled_btns button {
+  margin: 0 5px;
+  width: 340px;
+  height: 58px;
+  padding: 12px 27px;
+  background: transparent;
+  border: 1px solid #754de8;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  color: rgba(117, 77, 232, 0.5);
+}
+
+.cta_btns {
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.cta_btns button:first-child {
+  display: block;
+  margin: auto auto;
+width: 223px;
+height: 58px;
+color: #ffffff;
+padding: 12px 63px;
+background: #7e1cfe;
+font-weight: 500;
+font-size: 20px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border: none;
+border-radius: 20px;
+}
+
+.cta_btns button:last-child {
+  display: block;
+  margin: auto auto;
+width: 340px;
+height: 58px;
+padding: 12px 27px;
+background: transparent;
+border: 2px solid #754de8;
+border-radius: 20px;
+font-weight: 400;
+font-size: 20px;
+text-decoration-line: underline;
+color: #0085ff;
 }

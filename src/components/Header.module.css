@@ -65,10 +65,6 @@ header > section > h2 {
   margin-left: -250px;
 }
 
-.cta_btns button{
-    cursor: pointer;
-}
-
 .cta_btns button:first-child {
   width: 223px;
   height: 58px;

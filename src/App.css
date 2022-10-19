@@ -38,3 +38,12 @@ p {
 .primary-color {
   color:  #7E1CFE;
 }
+
+button {
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.03);
+  transition: ease-in-out;
+}

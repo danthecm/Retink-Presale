@@ -161,6 +161,17 @@ const Main = () => {
           <p>Boost sales and awareness with tailor made ads from experts.<br /> <br /><br /></p>
         </div>
       </section>
+
+      <h3>Sign Up For The BETA to see more</h3>
+      <div className={classes.disabled_btns}>
+        <button>Business Name</button>
+        <button>Email</button>
+      </div>
+      
+      <div className={classes.cta_btns}>
+            <button>Notify me</button><br /><br />
+            <button>Sign up as a freelance partner</button>
+        </div>
     </main>
   );
 };

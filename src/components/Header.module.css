@@ -95,7 +95,7 @@ header > section > h2 {
 
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 480px) {
+/* @media screen and (max-width: 480px) {
   header {
     grid-template-columns: 1fr;
     height: 1500px;
@@ -105,4 +105,4 @@ header > section > h2 {
   .text_logo {
     font-size: 35px;
   }
-}
+} */

@@ -1,5 +1,6 @@
 body {
   font-family: 'Poppins', sans-serif;
+  overflow: hidden;
 }
 
 h1 {
@@ -41,4 +42,24 @@ p {
 
 button {
   cursor: pointer;
+}
+
+/* MEDIA QUERIES */
+@media screen and (max-width:480px) {
+  
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+p {
+  font-size: 12px;
+}
 }

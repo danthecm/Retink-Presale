@@ -253,4 +253,23 @@ main>p {
     margin: auto auto;
     margin-bottom: 100px;
   }
+
+  .disabled_btns {
+    display: block;
+    margin: 30px auto;
+  }
+  
+  .disabled_btns button {
+    display: block;
+    margin: 10px auto;
+    width: 340px;
+    height: 58px;
+    padding: 12px 27px;
+    background: transparent;
+    border: 1px solid #754de8;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(117, 77, 232, 0.5);
+  }
 }

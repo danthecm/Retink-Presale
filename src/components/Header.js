@@ -80,8 +80,8 @@ const Header = () => {
           <button
             data-aos="flip-down"
             data-aos-easing="ease-in-out"
-            data-aos-delay="2300"
-            data-aos-duration="2000"
+            data-aos-delay="2500"
+            data-aos-duration="2200"
           >
             Sign up as a freelance partner
           </button>
@@ -89,8 +89,7 @@ const Header = () => {
       </section>
       <img
         data-aos="fade-down"
-        data-aos-easing="ease-in-out-cubic"
-        data-aos-delay="2800"
+        data-aos-easing="ease-in-out"
         data-aos-duration="2000"
         className={classes.avater_img}
         src={retink_avater}

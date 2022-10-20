@@ -6,7 +6,7 @@ main {
   justify-content: center;
 }
 
-main > section > img {
+main>section>img {
   display: block;
   margin: 50px auto 200px auto;
 }
@@ -16,9 +16,9 @@ main > section > img {
 
 .cards {
   display: grid;
-  grid-template-areas:  
-  "a a b b c c"
-  "d d d e e e";
+  grid-template-areas:
+    "a a b b c c"
+    "d d d e e e";
   gap: 46px;
   justify-content: center;
   align-items: center;
@@ -55,20 +55,23 @@ main > section > img {
 .cards div:nth-child(3) {
   grid-area: c;
 }
+
 .cards div:nth-child(4) {
   grid-area: d;
   justify-self: end;
 }
+
 .cards div:nth-child(5) {
   grid-area: e;
   justify-self: start;
 }
 
-.card > img {
+.card>img {
   display: block;
   margin: auto auto;
 }
-.card > h4 {
+
+.card>h4 {
   /* width: 182px; */
   text-align: center;
   margin: auto auto;
@@ -77,12 +80,13 @@ main > section > img {
   line-height: 30px;
   color: #000000;
 }
-.card > p {
+
+.card>p {
   max-width: 260px;
   margin: auto auto;
 }
 
-main > p {
+main>p {
   font-size: 20px;
   line-height: 34px;
   text-align: center;
@@ -109,9 +113,9 @@ main > p {
   /* align-items: center; */
 }
 
-.service > div {
+.service>div {
   display: block;
-  background: #ffffff ;
+  background: #ffffff;
   background-size: cover;
   background-repeat: no-repeat;
   margin: 5px auto;
@@ -121,17 +125,18 @@ main > p {
   height: 143px;
 }
 
-.service > div:hover {
+.service>div:hover {
   transform: scale(1.04);
 }
 
-.service > .title {
+.service>.title {
   font-weight: 300;
   font-size: 18px;
   margin-top: 12px;
   margin-bottom: 5px;
 }
-.service > hr {
+
+.service>hr {
   width: 80px;
   height: 0;
   color: #754de8;
@@ -169,29 +174,83 @@ main > p {
 .cta_btns button:first-child {
   display: block;
   margin: auto auto;
-width: 223px;
-height: 58px;
-color: #ffffff;
-padding: 12px 63px;
-background: #7e1cfe;
-font-weight: 500;
-font-size: 20px;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border: none;
-border-radius: 20px;
+  width: 223px;
+  height: 58px;
+  color: #ffffff;
+  padding: 12px 63px;
+  background: #7e1cfe;
+  font-weight: 500;
+  font-size: 20px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
+  border-radius: 20px;
 }
 
 .cta_btns button:last-child {
   display: block;
   margin: auto auto;
-width: 340px;
-height: 58px;
-padding: 12px 27px;
-background: transparent;
-border: 2px solid #754de8;
-border-radius: 20px;
-font-weight: 400;
-font-size: 20px;
-text-decoration-line: underline;
-color: #0085ff;
+  width: 340px;
+  height: 58px;
+  padding: 12px 27px;
+  background: transparent;
+  border: 2px solid #754de8;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  text-decoration-line: underline;
+  color: #0085ff;
+}
+
+
+/* MEDIA QURIES */
+@media screen and (max-width: 480px) {
+  main {
+    padding: 80px 5px;
+  }
+
+  main>section>img {
+    display: block;
+    width: 380px;
+    margin: 50px auto 80px auto;
+  }
+
+  .cards {
+    display: grid;
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d"
+      "e";
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 84px;
+  }
+
+  .card {
+    width: 331px;
+    height: 356px;
+    align-items: center;
+    padding: 50px 10px;
+    /* margin: 5px; */
+  }
+
+  main>p {
+    font-size: 10px;
+    /* text-align: center; */
+    color: #4d4d4d;
+    word-wrap: break-word;
+    margin: 15px;
+  }
+
+  .services {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: auto auto;
+    margin-bottom: 100px;
+  }
 }
